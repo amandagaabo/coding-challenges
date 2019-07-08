@@ -15,10 +15,11 @@ const fizzBuzz1 = () => {
 		else if (divisibleByFive) returnString += 'Buzz ';
 		else returnString += `${i} `;
 	}
-	console.log(returnString)
+	return returnString;
 }
 
-fizzBuzz1();
+console.log(fizzBuzz1());
+console.log('O(n)');
 
 console.log('');
 console.log('FIZZ BUZZ - WITH PARAMETERS')
@@ -38,9 +39,9 @@ const fizzBuzz2 = (start, end, fizzNumber, buzzNumber) => {
 		else if (divisibleByBuzzNumber) returnString += 'Buzz ';
 		else returnString += `${i} `;
 	}
-	console.log(returnString)
+	return returnString;
 }
 
-fizzBuzz2(1, 100, 3, 5);
+console.log(fizzBuzz2(1, 100, 3, 5));
 console.log('');
-fizzBuzz2(100,200,4,10);
+console.log(fizzBuzz2(100,200,4,10));

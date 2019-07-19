@@ -7,10 +7,6 @@ const isPalindrome = s => {
 	return s === s.split('').reverse().join('');
 }
 
-const sortLowToHigh = arr => {
-	return arr.sort((a, b) => b.length - a.length)
-}
-
 const getPalindrome = s => {
 	if (isPalindrome(s)) return s;
 

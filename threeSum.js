@@ -28,7 +28,7 @@ const getCombinations = (arr, tempArr, start, end, index, sumZeroCombinations) =
 
 const threeSum = nums => {
 	const temp = [];
-	let sumZeroCombinations = [];
+	const sumZeroCombinations = [];
 	// sort so duplicates are not added
 	nums = nums.sort((a, b) => a - b);
 	const numsWithSumZero = getCombinations(nums, temp, 0, nums.length - 1, 0, sumZeroCombinations);

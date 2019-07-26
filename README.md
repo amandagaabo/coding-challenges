@@ -15,4 +15,6 @@ Practice problems to be a better coder.
 3. Factorial
 4. Summations
 5. Palindromes
+6. Three Sum
+
 ...more ideas to come!
